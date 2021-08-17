@@ -156,17 +156,16 @@ section {
 
 }
 
-.intro {
-    text-align: center;
 
-}
 .section-title {
     color: #024e76;
     font-size: 55px;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    
 }
 
 .primary-border {
@@ -184,14 +183,14 @@ section {
     font-size: 20px;
     line-height: 1.7;
     width: 80%;
-    color: #39a6b2;
     margin: 0 auto;
+    text-align: center;
     
 }
 
 .steps {
     background-color: #fce138;
-    text-align: center;
+    
 }
 
 .steps div {
@@ -218,7 +217,7 @@ section {
 }
 
 .trainers {
-    text-align: center;
+    
 }
 
 
@@ -243,13 +242,6 @@ section {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
 
 .trainer-bio h3 {
     font-size: 32px;
@@ -271,7 +263,7 @@ section {
 
 .contact {
     background: #024e76;
-    text-align: center;
+    
     overflow: auto;
 }
 .contact h2 {
@@ -308,4 +300,16 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
